@@ -1,0 +1,184 @@
+nav {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(38, 104, 104, 0.534);
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   position: fixed; 
+            top: 0;         
+            left: 0;       
+            width: 100%;    
+            background-color: #2d6b5ec7; 
+            padding: 10px; 
+            text-align: center; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+            z-index: 1000;
+
+   
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 19px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 255, 255);
+}
+
+body {
+  background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+}
+
+img {
+    position: relative;
+    top: 110px;
+    left: 70px;
+    
+}
+
+.image-container {
+    background-color: #397c72cb; 
+    padding: 30px; 
+    display: inline-block; 
+  }
+  
+  .image-container img {
+    display: block; 
+    margin: 0 auto; 
+  }
+
+
+  .text {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transform: translatex(-107%);
+    text-align: right;
+  }
+
+h1 {
+    font-size: 55px;
+}
+h3 {
+    position: absolute;
+    top: 48%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-225%);
+    text-align: right;
+    
+  }
+
+#a {
+    position: absolute;
+    top: 180%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-282%);
+    text-align: right;
+    
+}
+#b {
+    position: absolute;
+    top: 185%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-640%);
+    text-align: right;
+    
+}
+#c {
+    position: absolute;
+    top: 275%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-255%);
+    text-align: right;
+    
+}
+#d {
+    position: absolute;
+    top: 280%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-640%);
+    text-align: right;
+    
+}
+
+#e {
+    position: absolute;
+    top: 370%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-260%);
+    text-align: right;
+    
+}
+#f {
+    position: absolute;
+    top: 375%;
+    right: 0;
+    transform: translateY(-0%);
+    transform: translatex(-643%);
+    text-align: right;
+    
+}
+
+#judul {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#judul {
+    animation: fadeIn both;
+    animation-timeline: view(20%);
+}
+@keyframes fadeInUp {
+    from { 
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#judul {
+    animation: fadeInUp both;
+    animation-timeline: view(20%);
+}
+/* jjjjj */
+button {
+    background-color: #2e7577; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px;
+    position: relative;
+    margin-top: 150px;
+    transform: translatey(-400%);
+    transform: translatex(460%);
+}
+
+button:hover {
+    background-color: #0c6164; /* Darker green on hover */
+}
